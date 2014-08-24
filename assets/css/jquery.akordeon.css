@@ -1,0 +1,234 @@
+﻿.akordeon
+{
+/*    width: 200px;		*/
+/*	background:#353535;	*/
+	height:100%;
+    color: White;
+    font-family: Arial;
+    font-size: 12px;
+/*   
+    border: solid 1px black;
+	-webkit-border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+*/
+    behavior: url(PIE/PIE.htc);
+}
+.akordeon-item
+{
+    position: relative;
+}
+.akordeon-item .akordeon-item-head
+{
+	color:#404040;
+    height: 44px;
+	background:#adafb0;
+/* 
+   background: #0A8EBA; /* Old browsers */
+/*    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0A8EBA), to(#006C90));
+    background-image: -moz-linear-gradient(#0A8EBA, #006C90);
+    background-image: -webkit-linear-gradient(#0A8EBA, #006C90);
+    background-image: -o-linear-gradient(#0A8EBA, #006C90);
+    background: -ms-linear-gradient(#0A8EBA, #006C90);
+    background: linear-gradient(#0A8EBA, #006C90);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0A8EBA', endColorstr='#006C90',GradientType=0 ); /* IE6-9 */ /*position:relative;*/
+    padding-top: 14px;
+}
+.akordeon-item .akordeon-item-body
+{
+ /*
+ background: #005470; /* Old browsers */
+/*    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#005470), to(#006C90));
+    background-image: -moz-linear-gradient(#005470, #006C90);
+    background-image: -webkit-linear-gradient(#005470, #006C90);
+    background-image: -o-linear-gradient(#005470, #006C90);
+    background: -ms-linear-gradient(#005470, #006C90);
+    background: linear-gradient(#005470, #006C90);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005470', endColorstr='#006C90',GradientType=0 ); /* IE6-9 */ /* min-height: 100px;     padding: 10px;*/
+    border-bottom: none;
+    overflow: hidden;
+}
+.akordeon-icon
+{
+    width: 20px;
+    height: 20px;
+    background: #000; /* Old browsers */
+/*    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#c9f055), to(#95e21a));
+    background-image: -moz-linear-gradient(#c9f055, #95e21a);
+    background-image: -webkit-linear-gradient(#c9f055, #95e21a);
+    background-image: -o-linear-gradient(#c9f055, #95e21a);
+    background: -ms-linear-gradient(#c9f055, #95e21a);
+    background: linear-gradient(#c9f055, #95e21a);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9f055', endColorstr='#95e21a',GradientType=0 ); /* IE6-9 
+*/
+	
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px; /* position: absolute;     left: -8px;       top:14px;*/
+    padding: 0;
+    margin: 0 0 0 3px;
+    float: left;
+    cursor: pointer;
+    behavior: url(PIE.htc);
+}
+.akordeon-heading
+{
+    float: left;
+    padding-left: 10px;
+    padding-top: 3px;
+    font-weight: bold;
+	color:#000;
+}
+
+.akordeon-heading a
+{
+	color:#fff;
+	text-decoration:none;
+}
+
+.akordeon-icon span
+{
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    left: 6px;
+    top: -6px;
+    font-weight: bold;
+    text-align: center;
+}
+.akordeon-item.expanded .akordeon-icon span
+{
+    top: -9px;
+}
+.akordeon-item-head-container
+{
+    width: 100%;
+    position: absolute;
+/*    left: -8px;		*/
+    cursor: pointer;
+}
+
+.akordeon-item.expanded .akordeon-item-body
+{
+    border-top: solid 0px #5c5c5c;
+}
+.akordeon-item.collapsed
+{
+}
+
+.akordeon-item.expanded .akordeon-heading
+{
+    color: #fff;
+}
+
+.akordeon-item.expanded .akordeon-item-head
+{
+    background: #808283 !important; /* Old browsers */
+/*    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#005470), to(#006C90)) !important;
+    background-image: -moz-linear-gradient(#005470, #006C90) !important;
+    background-image: -webkit-linear-gradient(#005470, #006C90) !important;
+    background-image: -o-linear-gradient(#005470, #006C90) !important;
+    background: -ms-linear-gradient(#005470, #006C90) !important;
+    background: linear-gradient(#005470, #006C90) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005470', endColorstr='#006C90',GradientType=0 ) !important; /* IE6-9 */ /* -webkit-box-shadow: 0px 10px 0px rgba(92, 92, 92, 0.75);     -moz-box-shadow: 0px 10px 0px rgba(92, 92, 92, 0.75);     box-shadow: 0px 10px 0px rgba(92, 92, 92, 0.75);*/
+}
+.akordeon-item-content
+{
+    padding: 10px;
+    min-height: 80px;
+    overflow:auto;
+	background:#ddd;
+/*
+    height: 180px;
+*/
+}
+.akordeon-border-bottom
+{
+    border-bottom: solid 1px #ffffff;
+}
+.akordeon-border-top
+{
+    border-top: solid 0px #a0a0a0;
+}
+.akordeon-item.expanded .akordeon-item-body.akordeon-border-bottom
+{
+    border-bottom: solid 1px #a0a0a0 !important;
+}
+.akordeon-item.akordeon-item-first .akordeon-item-head
+{
+/*
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    behavior: url(PIE.htc);
+*/
+}
+
+.akordeon-item.akordeon-item-last.collapsed .akordeon-item-head
+{
+/*    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom: none;
+    behavior: url(PIE.htc);
+*/
+}
+.akordeon-item.akordeon-item-last.expanded .akordeon-item-head
+{
+    -webkit-border-bottom-right-radius: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom: solid 1px black;
+    behavior: url(PIE.htc);
+}
+.akordeon-item.akordeon-item-last.expanded .akordeon-item-body
+{
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    behavior: url(PIE.htc);
+}
+
+
+/*************** customized **********************/
+
+.akordeon-item-content li 
+{
+	border:solid 0px #fff;
+	list-style-type:none;
+
+	margin:0px;
+	font-size:13px;
+	background:url(../images/side_bk.png) no-repeat;
+	height:30px;
+	margin-left: -30px;
+	padding: 8px 0px 0px 15px;
+	font-weight:bold;
+	color:#404040;
+}
+
+.akordeon-item-content li a
+{
+	text-decoration:none;
+	height:30px;
+	display:block;
+
+	color:#404040;
+}
+
+.akordeon-item-content li a:hover
+{
+	color:#000;
+}

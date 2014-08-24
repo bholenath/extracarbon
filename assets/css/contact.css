@@ -1,0 +1,261 @@
+
+.form1 {
+	width: 450px;
+	background: #fff;
+	color: #777;
+	-webkit-box-shadow: 0px 0px 8px 2px #d1d1d1;
+	-moz-box-shadow: 0px 0px 8px 2px #d1d1d1;
+	box-shadow: 0px 0px 8px 2px #d1d1d1; 
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px; 
+	overflow: hidden;
+}
+
+.formtitle {
+	margin:10px 0;
+	padding: 10px 10px 10px 30px ;
+	line-height: 16px;
+	font-size: 13px;
+	color: #fff;
+	font-weight: bold;
+	background:	#aaa;				
+	border-radius: 5px;
+	background:#00a1e3 url(../images/info.png) no-repeat;
+	background-position:left center;
+	
+/*
+	text-shadow: -1px -1px #058b1b;
+	border-bottom: 1px solid #888888;
+	background:url(../images/cntc_back.png);
+*/
+}
+
+.formtitle a{ color:#fff;  }
+
+.input {
+	
+	width: 100%;
+	overflow: hidden;
+	padding: 5px 0;
+/*
+	border-bottom: 1px solid #ddd;
+	
+*/
+}
+
+.input input[type=radio]
+{
+	width: 50px;
+	
+}
+
+.inputtext {
+	line-height: 18px;
+	font-size: 16px;
+	color:#606060;
+	font-family:arial;
+	font-weight:bold;
+	padding: 5px 0;
+	text-transform:uppercase;
+	float: left;
+	width: 100%;
+	
+/*	
+	height: 35px;
+*/
+}
+
+.inputcontent 
+{
+	float: left;
+	width: 100%;	
+}
+
+.inputcontent input {
+	padding: 5px;
+	width: 55%;
+	line-height: 18px;
+/*	
+	height: 18px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	color: #777;
+*/
+}
+
+.inputcontent textarea 
+{
+	padding: 5px;
+}
+
+
+.inputcontent a {
+	color: #0084ff;
+	font-size: 12px;
+	text-decoration: none;
+	line-height: 12px;
+}
+
+.nobottomborder {
+	border-bottom: 0;
+}
+
+.buttons 
+{
+	
+	height: 34px;
+	border:solid 0px red;
+	padding:5px 0;
+	/*padding: 15px;*/
+}
+
+.greybutton {
+	background: #00a1e3; /* Old browsers */
+	
+	border: 1px solid #00a1e3;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px; 
+	line-height: 20px;
+	font-size: 16px;
+	padding: 3px 12px;
+	color: #ffffff;
+	text-shadow: -1px -1px #bababa;
+	cursor: pointer;
+}
+
+
+.greybutton1 {
+	background: #7c7a78; /* Old browsers */
+	
+	text-decoration:none;
+	border: 1px solid #7c7a78;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px; 
+	line-height: 20px;
+	font-size: 16px;
+	padding: 6px 12px;
+	color: #ffffff;
+	font-weight:bold;
+	cursor: pointer;
+}
+
+
+.orangebutton {
+	background:url(../images/button.png) repeat;
+	border: 1px solid #00A1E3;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px; 
+	line-height: 20px;
+	font-size: 16px;
+	padding: 6px 12px;
+	color: #fff;
+	font-weight:bold;
+	cursor: pointer;
+	width:165px;
+/*
+	background: url(../images/cntc_back.png); 
+*/
+}
+
+
+/*
+.orangebutton:hover{
+	background: #808080;
+	
+}
+*/
+
+
+/* Form 2 Style 
+
+.form2 {
+	width: 450px;
+	overflow: hidden;
+	
+	background: #fff;
+	-webkit-box-shadow: 0px 0px 8px 2px #d1d1d1;
+	-moz-box-shadow: 0px 0px 8px 2px #d1d1d1;
+	box-shadow: 0px 0px 8px 2px #d1d1d1; 
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 6px;
+	-moz-border-radius-bottomleft: 6px;
+*/
+
+
+.textarea {
+	padding: 5px;
+	height: 100px;
+	width: 200px;
+	line-height: 18px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+/*
+	border: 1px solid #c7c7c7;
+	color: #777;
+*/
+}
+
+.inputcontent .rad
+{
+	margin:0px;
+	padding:0px
+}
+
+.inputtextbox {
+
+	margin-bottom: 10px;
+	margin: 20px;
+	overflow: hidden;
+}
+
+.inputtextbox .inputcontent {
+	height: 114px;
+}
+
+#terms
+{
+	background:#eee;
+	padding: 5px 0;
+	margin: 0 5px ;
+	color:#000;
+	font-weight:bold;
+	border:solid 1px #aaa;
+}
+
+#terms a
+{
+	color:#000;
+}
+
+#cls
+{
+	background:#000;color:#fff; padding: 5px;
+	width:50px;cursor:pointer; position:fixed;
+	
+}
+
+#terms_cont
+{
+	text-align:justify;
+	margin-top: 30px;
+}
