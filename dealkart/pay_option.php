@@ -22,9 +22,9 @@ include('contain.php');
 
 //-------smtp details-------------
 
-$host 		= "mail.retailbazar.in";
-$username 	= "admin@retailbazar.in";
-$password 	= "123456";
+$host 		= "";
+$username 	= "";
+$password 	= "";
 
 
 if(!isset($_SESSION))
@@ -51,7 +51,7 @@ else
 date_default_timezone_set("Asia/Calcutta");	
 @$today = date('Y-m-d');
 
-$from 	= "admin@retailbazar.in";
+$from 	= "xyz@gmail.com";
 
 if(isset($m_id))
 {
